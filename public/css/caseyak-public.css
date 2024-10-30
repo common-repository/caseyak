@@ -1,0 +1,197 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#yakWidget-111 {
+    position: fixed;
+    bottom: 20px;
+    z-index: 2147483647;
+    min-height: 80px;
+    width: 300px;
+    text-align: right;
+}
+
+#yakWidget-111:hover {
+    cursor: pointer;
+}
+
+#yakWidget-spanish-text-111 {
+    margin-bottom: 5px;
+    color: #00d1b2;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+#yakWidget-inner-111 {
+    display: inline-block;
+    width: 220px;
+    background-color: #fff;
+    border-radius: 0.625rem;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+#yakPowered-111 {
+    right: 2px;
+    max-height: 25px;
+    height: 6%;
+    font-size: 0.75em;
+    text-align: right;
+}
+
+#yak-yak-img-111 {
+    max-height: 32px;
+    vertical-align: middle;
+}
+
+#yakImage-111 {
+    display: inline-block;
+    margin: 4px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/realyaksmall.png);
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+    vertical-align: bottom;
+}
+
+#yakTop-text-111 {
+    margin: 4px;
+    padding: 3px;
+    font-size: 0.88em;
+    text-align: center;
+}
+
+#yakSpanish-text-111 {
+    color: #00d1b2;
+}
+
+#yakContainer-111 {
+    position: fixed;
+    bottom: 10px;
+    z-index: 2147483648;
+    overflow: auto;
+    padding: 6px 0 6px 6px;
+    width: 340px;
+    height: 520px;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+#yakFormHeaderClose-111 {
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: inline-block;
+    float: right;
+    margin: 8px;
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+    outline: 0;
+    border: none;
+    color: white;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.2);
+    border-radius: 290486px;
+    vertical-align: top;
+    cursor: pointer;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+#yakBubbleClose-111 {
+    text-decoration: none;
+    font-size: .85em;
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: inline-block;
+    float: left;
+    margin: 2px;
+    min-width: 15px;
+    min-height: 15px;
+    width: 15px;
+    height: 15px;
+    outline: 0;
+    border: none;
+    color: white;
+    line-height: 15px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.2);
+    border-radius: 290486px;
+    vertical-align: top;
+    cursor: pointer;
+    pointer-events: auto;
+    -webkit-appearance: none;
+}
+
+#yakYakText-111 {
+    margin-left: 4px;
+    color: white;
+    font-weight: 500;
+    vertical-align: super;
+}
+
+#yak-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    margin: -25px 0 0 -25px;
+    width: 40px;
+    height: 40px;
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #00d1b2;
+    border-radius: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}

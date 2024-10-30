@@ -1,0 +1,14 @@
+{
+    "name": "caseyak/caseyak-wordpress",
+    "description": "CaseYak WordPress plugin",
+    "type": "project",
+    "require": {},
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "CaseYak",
+            "email": "kenny@caseyak.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
